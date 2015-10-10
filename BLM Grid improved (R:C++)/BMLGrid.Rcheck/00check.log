@@ -1,0 +1,110 @@
+* using log directory ‘/Users/a1/Desktop/sta242/Assignment4/BMLGrid.Rcheck’
+* using R version 3.1.2 (2014-10-31)
+* using platform: x86_64-apple-darwin13.4.0 (64-bit)
+* using session charset: UTF-8
+* checking for file ‘BMLGrid/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘BMLGrid’ version ‘2.0’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... WARNING
+Subdirectory ‘src’ contains:
+  .DS_Store symbols.rds
+These are unlikely file names for src files.
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... NOTE
+Found the following hidden files and directories:
+  .DS_Store
+  .Rhistory
+  R/.DS_Store
+  man/.DS_Store
+  man/.Rapp.history
+  src/.DS_Store
+  tests/.DS_Store
+  tests/testthat/.DS_Store
+  .Rproj.user
+These were most likely included in error. See section ‘Package
+structure’ in the ‘Writing R Extensions’ manual.
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘BMLGrid’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Deprecated license: BSD
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... WARNING
+Subdirectory 'R' contains invalid file names:
+  ‘.DS_Store’
+Subdirectory 'man' contains invalid file names:
+  ‘.DS_Store’ ‘.Rapp.history’
+Please remove or rename the files.
+See section ‘Package subdirectories’ in the ‘Writing R Extensions’
+manual.
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... WARNING
+summary:
+  function(object, ...)
+summary.BMLGrid:
+  function(x, ...)
+
+summary:
+  function(object, ...)
+summary.BMLGrid:
+  function(x, ...)
+
+See section ‘Generic functions and methods’ of the ‘Writing R
+Extensions’ manual.
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... NOTE
+prepare_Rd: createBMLGrid.Rd:53-55: Dropping empty section \note
+prepare_Rd: createBMLGrid.Rd:46-48: Dropping empty section \references
+prepare_Rd: createBMLGrid.Rd:59-61: Dropping empty section \seealso
+prepare_Rd: crunBMLGrid.Rd:26-28: Dropping empty section \details
+prepare_Rd: crunBMLGrid.Rd:45-47: Dropping empty section \note
+prepare_Rd: crunBMLGrid.Rd:37-39: Dropping empty section \references
+prepare_Rd: crunBMLGrid.Rd:51-53: Dropping empty section \seealso
+prepare_Rd: runBMLGrid.Rd:26-28: Dropping empty section \details
+prepare_Rd: runBMLGrid.Rd:44-46: Dropping empty section \note
+prepare_Rd: runBMLGrid.Rd:37-39: Dropping empty section \references
+prepare_Rd: runBMLGrid.Rd:50-52: Dropping empty section \seealso
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  ‘addTwo’ ‘createG’ ‘crunBMLGridv1’ ‘moveN’ ‘moveRight’ ‘moveRightInC’
+  ‘moveUp’ ‘moveUpInC’ ‘plot.BMLGrid’ ‘speedBMLGrid’ ‘summary.BMLGrid’
+  ‘vectorDensitySpeed’ ‘wrapRightInC’ ‘wrapUpInC’
+All user-level objects in a package should have documentation entries.
+See the chapter ‘Writing R documentation files’ in the ‘Writing R
+Extensions’ manual.
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking line endings in Makefiles ... OK
+* checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
+* checking compiled code ... OK
+* checking examples ... OK
+* checking for unstated dependencies in tests ... OK
+* checking tests ... OK
+  Running ‘test.R’
+  Running ‘testthat.R’
+* checking PDF version of manual ... OK
+* DONE
+WARNING: There were 4 warnings.
+NOTE: There were 3 notes.

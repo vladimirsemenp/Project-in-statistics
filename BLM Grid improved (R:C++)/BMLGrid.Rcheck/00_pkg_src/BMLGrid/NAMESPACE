@@ -1,0 +1,10 @@
+useDynLib(BMLGrid)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
+
+export(createBMLGrid)
+export(runBMLGrid)
+export(crunBMLGrid)
+
+S3method(plot, BMLGrid)
+S3method(summary, BMLGrid)

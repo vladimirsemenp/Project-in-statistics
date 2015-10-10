@@ -1,0 +1,3 @@
+max eigen: 0.568534
+density duration: 2337474
+max eigen duration: 17844799

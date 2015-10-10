@@ -1,0 +1,3 @@
+createBMLGrid           Creates a matrix for the BML Model.
+crunBMLGrid             Moves both types of cars in a matrix.
+runBMLGrid              Moves both types of cars in a matrix.

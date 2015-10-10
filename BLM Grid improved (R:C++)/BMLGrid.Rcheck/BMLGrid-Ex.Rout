@@ -1,0 +1,111 @@
+
+R version 3.1.2 (2014-10-31) -- "Pumpkin Helmet"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin13.4.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> pkgname <- "BMLGrid"
+> source(file.path(R.home("share"), "R", "examples-header.R"))
+> options(warn = 1)
+> library('BMLGrid')
+> 
+> base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
+> cleanEx()
+> nameEx("createBMLGrid")
+> ### * createBMLGrid
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: createBMLGrid
+> ### Title: Creates a matrix for the BML Model.
+> ### Aliases: createBMLGrid
+> 
+> ### ** Examples
+> 
+> ##example1
+> g=createBMLGrid(0.2,10,10)
+> g=runBMLGrid(g,100)
+> par(mfrow=c(1,2))
+> plot(g,"density=0.2")
+> g=createBMLGrid(0.5)
+> g=runBMLGrid(g,100)
+> plot(g,"density=0.5")
+> 
+> 
+> 
+> graphics::par(get("par.postscript", pos = 'CheckExEnv'))
+> cleanEx()
+> nameEx("crunBMLGrid")
+> ### * crunBMLGrid
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: crunBMLGrid
+> ### Title: Moves both types of cars in a matrix.
+> ### Aliases: crunBMLGrid
+> 
+> ### ** Examples
+> 
+> ##Example1
+> g=createBMLGrid(0.2,10,10)
+> g=crunBMLGrid(g,100)
+> par(mfrow=c(1,2))
+> plot(g,"density=0.2")
+> g=createBMLGrid(0.5)
+> g=crunBMLGrid(g,100)
+> plot(g,"density=0.5")
+> 
+> 
+> 
+> graphics::par(get("par.postscript", pos = 'CheckExEnv'))
+> cleanEx()
+> nameEx("runBMLGrid")
+> ### * runBMLGrid
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: runBMLGrid
+> ### Title: Moves both types of cars in a matrix.
+> ### Aliases: runBMLGrid
+> 
+> ### ** Examples
+> 
+> ##Example1
+> g=createBMLGrid(0.2,10,10)
+> g=runBMLGrid(g,100)
+> par(mfrow=c(1,2))
+> plot(g,"density=0.2")
+> g=createBMLGrid(0.5)
+> g=runBMLGrid(g,100)
+> plot(g,"density=0.5")
+> 
+> 
+> 
+> graphics::par(get("par.postscript", pos = 'CheckExEnv'))
+> ### * <FOOTER>
+> ###
+> options(digits = 7L)
+> base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
+Time elapsed:  4.052 0.024 4.105 0 0 
+> grDevices::dev.off()
+null device 
+          1 
+> ###
+> ### Local variables: ***
+> ### mode: outline-minor ***
+> ### outline-regexp: "\\(> \\)?### [*]+" ***
+> ### End: ***
+> quit('no')

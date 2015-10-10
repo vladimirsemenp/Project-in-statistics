@@ -1,0 +1,13 @@
+Package: BMLGrid
+Type: Package
+Title: Bihman-Middleton-Levin Traffic Model Simulation
+Version: 2.0
+Date: 2015-05-17
+Author: Vladimir Pchelin
+Maintainer: Vladimir Pchelin <vpchelin@ucdavis.edu>
+Description: Tools to analyse Bihman-Middleton-Levin Traffic Model. It includes a function to create matrix for BML Model, a function to plot this matrix, a function to measure average speeds at each step
+License: BSD
+Imports: Rcpp (>= 0.11.4)
+LinkingTo: Rcpp
+Suggests: testthat
+Built: R 3.1.2; x86_64-apple-darwin13.4.0; 2015-05-18 15:56:52 UTC; unix
